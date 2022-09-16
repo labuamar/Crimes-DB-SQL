@@ -10,10 +10,16 @@ The objectives for this database are:
 - Create readonly and readwrite groups with appropriate privileges
 - Create users for each of the groups
 
+The desired end result would look like:
+
+![13](.images/13.png)
+
 # Dataset
 
 The dataset is 
+
 # Setup
+
 ## Postgres Database on Amazon RDS
 
 Start AWS and navigate to the AWS management console [here](https://console.aws.amazon.com/console/).
@@ -47,6 +53,8 @@ First, select a region on the top right corner. I chose US-east. You can choose 
 ![10](.images/10.png)
 
 ![11](.images/11.png)
+
+## Terminating Resources
 
 ![12](.images/12.png)
 
