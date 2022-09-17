@@ -16,9 +16,19 @@ The desired end result would look like:
 
 # Dataset
 
-The dataset is 
+The dataset consists of information about all crimes in the Boston area from 2015 to 2018. The columns include:
+
+- Incident number - unique value 
+- offense_code - unique code specific to crime comitted
+- description - description of crime comitted
+- data - data of crime comitted
+- day_of_the_week - day of the week the crime was comitted
+- lat - latitude of the location where the crime was comitted
+- long - longitude of the location where the crime was comitted
 
 # Setup
+
+To build the database table, I created a postgres instance on AWS RDS.
 
 ## Postgres Database on Amazon RDS
 
